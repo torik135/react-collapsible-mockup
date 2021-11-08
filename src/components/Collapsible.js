@@ -1,12 +1,12 @@
 import { useState } from "react"
 
-const Collapsible = () => {
+const Collapsible = (prop) => {
     const [isOpen, setIsOpen] = useState(false)
 
     return (
         <div className="collapsible">
-            <button className="toggle" onClick={() => setIsOpen(!isOpen)}>Toggle</button>
-            {isOpen && <div className="content">Content</div>}
+            <button className="toggle" onClick={() => setIsOpen(!isOpen)}>{prop.label}</button>
+            {isOpen && <div className="content">{prop.children}</div>}
         </div>
     )
 }
