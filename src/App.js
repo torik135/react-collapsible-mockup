@@ -8,6 +8,8 @@ const App = () => {
       <Collapsible label="BTN 1">
         <h2>Title</h2>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam sit distinctio odit libero. Id odit expedita enim temporibus ad consectetur aspernatur libero sunt illo maxime inventore sint voluptates, sapiente porro.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam sit distinctio odit libero. Id odit expedita enim temporibus ad consectetur aspernatur libero sunt illo maxime inventore sint voluptates, sapiente porro.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam sit distinctio odit libero. Id odit expedita enim temporibus ad consectetur aspernatur libero sunt illo maxime inventore sint voluptates, sapiente porro.</p>
       </Collapsible>
       <Collapsible label="BTN 2">
         <ul>

@@ -7,7 +7,9 @@ const Collapsible = (prop) => {
     return (
         <div className="collapsible">
             <button className="toggle" onClick={() => setIsOpen(!isOpen)}>{prop.label}</button>
-            {isOpen && <div className="content">{prop.children}</div>}
+            <div className={isOpen ? "content-parent show" : "content-parent"}>
+                <div className="content">{prop.children}</div>
+            </div>
         </div>
     )
 }

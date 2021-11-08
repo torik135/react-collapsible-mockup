@@ -19,7 +19,17 @@
   border: 3px solid brown;
   border-radius: 5px;
   background: chartreuse;
-  padding: 3rem;
+  padding: 0.3rem;
   margin: 2rem;
   margin-bottom: 3rem;
+}
+
+.collapsible .content-parent {
+  height: 0px;
+  overflow: hidden;
+  transition: height ease 0.5s;
+}
+
+.collapsible .content-parent.show {
+  height: auto;
 }
