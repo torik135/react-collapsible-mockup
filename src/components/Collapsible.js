@@ -1,4 +1,5 @@
 import { useState } from "react"
+import './Collapsible.css'
 
 const Collapsible = (prop) => {
     const [isOpen, setIsOpen] = useState(false)

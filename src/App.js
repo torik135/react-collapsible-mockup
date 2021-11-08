@@ -19,10 +19,10 @@ const App = () => {
         </ul>
       </Collapsible>
       <Collapsible label="BTN 3">
-        <input type="text"></input>
+        <input type="text" />
       </Collapsible>
       <Collapsible label="BTN 4">
-        <input type="radio"></input>
+        <input type="radio" />
       </Collapsible>
     </div>
   )

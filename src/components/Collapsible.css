@@ -1,0 +1,25 @@
+/* .collapsible {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+} */
+
+.collapsible .toggle {
+  background: rgb(9, 255, 0);
+  border: unset;
+  margin-bottom: 0.3rem;
+  cursor: pointer;
+  font: inherit;
+  padding: 0.6rem;
+  border-radius: 3px;
+  color: blue;
+}
+
+.collapsible .content {
+  border: 3px solid brown;
+  border-radius: 5px;
+  background: chartreuse;
+  padding: 3rem;
+  margin: 2rem;
+  margin-bottom: 3rem;
+}
