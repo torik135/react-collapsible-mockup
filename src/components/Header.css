@@ -1,0 +1,17 @@
+.header {
+  border-radius: 10px;
+  background-color: rgb(95, 95, 95);
+  color: rgb(255, 251, 9);
+  padding: 2px;
+  margin: 1px;
+}
+
+.header-white {
+  color: white;
+  transition: ease-in 0.5s;
+}
+
+.header-yellow {
+  color: yellow;
+  transition: ease-out 0.5s;
+}
