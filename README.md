@@ -1,7 +1,7 @@
-# Color Matching Game Using Reactjs
+# Collapsible Component Using Reactjs
 
 ## implementation of
 - useState [reactjs]
-- useEffect [reactjs]
 - components [reactjs]
 - basic js
+- css 
