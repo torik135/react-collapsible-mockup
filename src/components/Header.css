@@ -2,8 +2,12 @@
   border-radius: 10px;
   background-color: rgb(95, 95, 95);
   color: rgb(255, 251, 9);
-  padding: 2px;
+  padding: 12px;
   margin: 1px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header-white {
